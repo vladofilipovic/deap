@@ -62,6 +62,7 @@ def selTournament(individuals, k, tournsize, fit_attr="fitness"):
     This function uses the :func:`~random.choice` function from the python base
     :mod:`random` module.
     """
+    
     chosen = []
     for i in xrange(k):
         aspirants = selRandom(individuals, tournsize)
